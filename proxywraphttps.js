@@ -1,4 +1,4 @@
 "use strict"
-var http = require("http"), proxywrap = require("proxywrap")
+var https = require("https"), proxywrap = require("findhit-proxywrap")
 
-module.exports = proxywrap.proxy(http)
+module.exports = proxywrap.proxy(https)

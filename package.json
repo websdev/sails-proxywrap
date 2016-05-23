@@ -1,0 +1,24 @@
+{
+  "name": "sails-proxywrap",
+  "version": "1.0.0",
+  "description": "Return a Sails module where HTTP & HTTPS have been substituted out for [Proxywrap](https://github.com/daguej/node-proxywrap)-ed replacements.",
+  "main": "sails-proxywrap.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mfowlewebs/sails-proxywrap.git"
+  },
+  "keywords": [],
+  "author": "Matthew Fowle",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mfowlewebs/sails-proxywrap/issues"
+  },
+  "homepage": "https://github.com/mfowlewebs/sails-proxywrap#readme",
+  "dependencies": {
+    "proxyquire": "^1.7.9",
+    "proxywrap": "^0.2.0"
+  }
+}

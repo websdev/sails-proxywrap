@@ -1,10 +1,10 @@
 {
   "name": "sails-proxywrap",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Return a Sails module where HTTP & HTTPS have been substituted out for [Proxywrap](https://github.com/daguej/node-proxywrap)-ed replacements.",
   "main": "sails-proxywrap.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node .test"
   },
   "repository": {
     "type": "git",

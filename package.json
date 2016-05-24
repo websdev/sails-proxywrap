@@ -19,7 +19,9 @@
   "homepage": "https://github.com/mfowlewebs/sails-proxywrap#readme",
   "dependencies": {
     "findhit-proxywrap": "^0.3.11",
-    "proxyquire": "^1.7.9",
-    "sails": "^0.12.3"
+    "proxyquire": "^1.7.9"
+  },
+  "peerDependencies": {
+    "sails": ">=0.10.0"
   }
 }

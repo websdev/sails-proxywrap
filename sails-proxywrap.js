@@ -1,7 +1,8 @@
 "use strict"
-var proxyquire = require("proxyquire"), proxywraphttp = require("./proxywraphttp"), proxywraphttps = require("./proxywraphttps")
+var proxywraphttp = require("./proxywraphttp"), proxywraphttps = require("./proxywraphttps")
 
-module.exports = proxyquire("sails",  {
-	"http": proxywraphttp,
-	"https": proxywraphttps
-})
+require.cache[require.resolve('http')] = { exports: proxywraphttp }
+require.cache[require.resolve('https')] = { exports: proxywraphttps }
+
+module.exports = require("sails")
+

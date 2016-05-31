@@ -1,6 +1,6 @@
 {
   "name": "sails-proxywrap",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Return a Sails module where HTTP & HTTPS have been substituted out for [Proxywrap](https://github.com/daguej/node-proxywrap)-ed replacements.",
   "main": "sails-proxywrap.js",
   "scripts": {

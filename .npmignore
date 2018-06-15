@@ -1,0 +1,7 @@
+/.test
+/.gitignore
+/.node-version
+/.nvmrc
+/Jenkinsfile
+/package-lock.json
+/README.md

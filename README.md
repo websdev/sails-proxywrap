@@ -6,6 +6,6 @@ This project implements a zero-change API implementation of [Sails#3506](https:/
 
 # Use
 
-`npm install --save sails-proxywrap` to install the module
+`npm install --save @vpdigital/sails-proxywrap` to install the module
 
-Edit `app.js` and replace `require("sails")` with `require("sails-proxywrap")`.
+Edit `app.js` and replace `require("sails")` with `require("@vpdigital/sails-proxywrap")`.

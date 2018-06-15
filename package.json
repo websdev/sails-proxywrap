@@ -1,7 +1,8 @@
 {
-  "name": "sails-proxywrap",
+  "name": "@vpdigital/sails-proxywrap",
   "version": "1.0.4",
   "description": "Return a Sails module where HTTP & HTTPS have been substituted out for [Proxywrap](https://github.com/daguej/node-proxywrap)-ed replacements.",
+  "license": "UNLICENSED",
   "main": "sails-proxywrap.js",
   "scripts": {
     "test": "node .test"
@@ -15,6 +16,9 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/websdev/sails-proxywrap/issues"
+  },
+  "publishConfig": {
+    "registry": "http://private.npm.digital.vistaprint.io/"
   },
   "homepage": "https://github.com/websdev/sails-proxywrap#readme",
   "dependencies": {

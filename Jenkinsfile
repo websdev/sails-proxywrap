@@ -21,7 +21,7 @@ podTemplate(
     ]
 )
 {
-  node('digital-icons-pod'){
+  node('sails-proxywrap-pod'){
     def varSCM = checkout scm
     properties([pipelineTriggers([pollSCM('* */2 * * *')])])
 

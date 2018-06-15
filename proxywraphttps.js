@@ -1,4 +1,6 @@
 "use strict"
 var https = require("https"), proxywrap = require("findhit-proxywrap")
 
-module.exports = proxywrap.proxy(https)
+module.exports = function proxywrapHttps(options) {
+	return proxywrap.proxy(https, options)
+}
